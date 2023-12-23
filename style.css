@@ -1,0 +1,117 @@
+body {
+    background-color: black;
+    font-family: helvetica, sans-serif;
+    font-size: 22px;
+    color:seashell;
+    
+    text-align: center;
+    margin: 0;
+}
+h2,
+h3,
+h4{
+    margin: 0px;
+    padding: 10px;
+}
+a {
+    color: seashell;
+}
+
+.flex-container{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+header {
+    background-color: black;
+    position:fixed;
+    text-decoration: underline;
+    height: 69px;
+    border: 1px solid seashell;
+    width: 100%;
+    z-index: 1;
+    opacity: 0.9;
+}
+
+header img{
+    height: 50px;
+    padding: 10px;
+    color: gray;
+}
+nav{
+    text-align: right;
+    flex-grow: 1;
+}
+nav span{
+    display: inline-block;
+    padding: 20px 10px;
+    color: gray;
+}
+#mission {
+    height: 700px;
+    padding-top: 70px;
+    background-image: url('https://content.codecademy.com/courses/freelance-1/unit-4/img-mission-background.jpg?_gl=1*1idhpct*_ga*NjgyMjg4MjM5Mi4xNjk5NjQ0MjUy*_ga_3LRZM6TM9L*MTcwMzA3NzE0MC41MS4xLjE3MDMwNzc0MTkuMC4wLjA.');
+    margin: auto;
+}
+#mission .content{
+    margin: auto;
+    background-color: black;
+    width: 100%;
+}
+#store {
+    
+    height: 700px;
+    width:1000px;
+    margin: auto;
+    padding-top: 70px;
+}
+
+.item{ 
+    padding: 5px;
+}
+
+.item img{
+    display: block;
+    height: 200px;
+    margin: 10px;
+
+}
+
+.item span{
+    display: block;
+    padding: 5px;
+    font-weight: bold;
+    text-align: center;
+}
+.flex-container .location{
+    padding: 5px;
+}
+#location {
+    background-image: url('https://content.codecademy.com/courses/freelance-1/unit-4/img-locations-background.jpg?_gl=1*e90qzw*_ga*NjgyMjg4MjM5Mi4xNjk5NjQ0MjUy*_ga_3LRZM6TM9L*MTcwMzA3NzE0MC41MS4xLjE3MDMwNzc0MTkuMC4wLjA.');
+    text-align: center;
+    height: 500px;
+    padding-top: 70px;
+}
+#location .flex-container{
+    margin: auto;
+    width: 1100px;
+}
+.location {
+    background-color: black;
+    display: block;
+    flex-basis: 300px;
+    margin: 5px 20px;
+    opacity: 1.0;
+    padding: 10px;
+    flex-direction: column;
+    justify-content: center;
+}
+#contact{
+    display: block;
+    height: 200px;
+}
+footer{
+    text-align: left;
+    padding-left: 20px;
+}
